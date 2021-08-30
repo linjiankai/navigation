@@ -1,0 +1,23 @@
+.__dumi-default-layout {
+  box-sizing: border-box;
+  background: #f7f7f9;
+}
+
+.__dumi-default-menu-header p>object[data^='https://img.shields.io']{
+    display: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #ccc;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background: #ededed;
+}
