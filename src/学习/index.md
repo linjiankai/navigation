@@ -7,15 +7,16 @@ toc: menu
 
 ### 视频学习
 
-```jsx
-/**
- * inline: true
- */
-import React from 'react';
-import List from 'components/list'
-import resource from './index.js';
+<Resource module="学习" name="视频学习"></Resource>
 
-export default () => {
-    return <List resource={resource['视频学习']}></List> 
-}
-```
+### 社区
+
+<Resource module="学习" name="社区"></Resource>
+
+### 团队
+
+<Resource module="学习" name="团队"></Resource>
+
+### 博主
+
+<Resource module="学习" name="博主"></Resource>
