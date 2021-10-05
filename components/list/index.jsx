@@ -11,10 +11,12 @@ const List = ({ module, name }) => {
           <span className="card" key={index}>
             <a href={item.url} className="link" target="_blank">
               <span className="title">
-                <img
-                  src={require(`../../public/images/${item.icon}`)}
-                  alt="image"
-                />
+                {item.icon && (
+                  <img
+                    src={require(`../../public/images/${item.icon}`)}
+                    alt="image"
+                  />
+                )}
                 {item.name}
               </span>
               <span className="desc" title={item.desc}>
