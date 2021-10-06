@@ -132,7 +132,7 @@ export default {
   团队: [
     {
       name: '奇舞周刊',
-      icon: '75.ico',
+      icon: '75.png',
       desc: '360奇舞团',
       url: 'https://weekly.75.team/',
     },
@@ -182,34 +182,52 @@ export default {
   ],
   博主: [
     {
-      name: '',
+      name: '阮一峰',
       icon: '',
-      desc: '',
-      url: '',
+      desc: 'ECMAScript 6 入门',
+      url: 'http://www.ruanyifeng.com/blog/',
     },
     {
-      name: '',
+      name: '张鑫旭',
       icon: '',
-      desc: '',
-      url: '',
+      desc: 'css世界',
+      url: 'https://www.zhangxinxu.com/',
     },
     {
-      name: '',
+      name: '廖雪峰',
       icon: '',
       desc: '',
-      url: '',
+      url: 'https://www.liaoxuefeng.com/',
     },
     {
-      name: '',
+      name: '神三元',
       icon: '',
       desc: '',
-      url: '',
+      url: 'https://juejin.cn/user/430664257382462',
     },
     {
-      name: '',
+      name: '木易杨',
       icon: '',
       desc: '',
-      url: '',
+      url: 'https://muyiy.cn/blog/',
+    },
+    {
+      name: '山月行',
+      icon: '',
+      desc: '',
+      url: 'https://shanyue.tech/',
+    },
+    {
+      name: 'yck',
+      icon: '',
+      desc: '',
+      url: 'https://juejin.cn/user/712139233840407',
+    },
+    {
+      name: '技术胖',
+      icon: '',
+      desc: '',
+      url: 'http://jspang.com/',
     },
   ],
 };
