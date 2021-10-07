@@ -1,7 +1,121 @@
 export default {
-  CSS: [],
-  框架: [],
-  中后台框架: [
+  Vue: [
+    {
+      name: '官方文档',
+      icon: 'vue.png',
+      desc: '渐进式JavaScript 框架',
+      url: 'https://cn.vuejs.org/',
+    },
+    {
+      name: 'Router文档',
+      icon: 'vue.png',
+      desc: 'vue官方路由',
+      url: 'https://next.router.vuejs.org/zh/index.html',
+    },
+    {
+      name: 'Vue CLI',
+      icon: 'vue.png',
+      desc: 'Vue.js 开发的标准工具',
+      url: 'https://cli.vuejs.org/zh/',
+    },
+    {
+      name: '',
+      icon: 'vue.png',
+      desc: '',
+      url: '',
+    },
+  ],
+  React: [
+    {
+      name: '官方文档',
+      icon: 'react.ico',
+      desc: '用于构建用户界面的 JavaScript 库',
+      url: 'https://react.docschina.org/',
+    },
+    {
+      name: 'Router文档',
+      icon: 'reactrouter.png',
+      desc: 'react官方路由',
+      url: 'https://reactrouter.com/',
+    },
+    {
+      name: 'Create React App',
+      icon: 'react.ico',
+      desc: 'react官方脚手架',
+      url: 'https://create-react-app.dev/',
+    },
+    {
+      name: 'UmiJS',
+      icon: 'umijs.svg',
+      desc: '基于react的插件化企业级前端应用框架',
+      url: 'https://umijs.org/zh-CN',
+    },
+  ],
+  Angular: [
+    {
+      name: '官方文档',
+      icon: 'angular.png',
+      desc: '现代 Web 开发平台',
+      url: 'https://angular.cn/',
+    },
+    {
+      name: '',
+      icon: '',
+      desc: '',
+      url: '',
+    },
+  ],
+  状态管理: [
+    {
+      name: 'Vuex',
+      icon: 'vue.png',
+      desc: 'vue官方状态管理库',
+      url: 'https://vuex.vuejs.org/zh/',
+    },
+    {
+      name: 'Redux',
+      icon: 'redux.ico',
+      desc: '与React绑定的状态管理库',
+      url: 'https://cn.redux.js.org/',
+    },
+    {
+      name: 'Mobx',
+      icon: 'mobx.png',
+      desc: '简单、可扩展的状态管理，多用于react',
+      url: 'https://mobx.js.org/README.html',
+    },
+    {
+      name: 'Recoil',
+      icon: 'recoil.png',
+      desc: 'Facebook的React状态管理库',
+      url: 'https://recoiljs.org/zh-hans/',
+    },
+    {
+      name: 'Dva',
+      icon: 'github.png',
+      desc: '基于 redux、redux-saga 和 react-router 的轻量级前端框架',
+      url: 'https://github.com/dvajs/dva/blob/master/README_zh-CN.md',
+    },
+    {
+      name: 'Ngrx',
+      icon: 'ngrx.png',
+      desc: 'Angular基于Rxjs的状态管理',
+      url: 'https://ngrx.io/',
+    },
+    {
+      name: 'akita',
+      icon: 'github.png',
+      desc: '基于RxJS的状态管理，适用范围广',
+      url: 'https://github.com/datorama/akita',
+    },
+    {
+      name: 'Xstate',
+      icon: 'xstate.ico',
+      desc: 'JavaScript和TypeScript有限状态机和状态图，没有限定任何前端框架',
+      url: 'https://xstate.js.org/',
+    },
+  ],
+  中后台UI框架: [
     {
       name: 'Ant Design of React',
       icon: 'antDesginReact.svg',
@@ -26,8 +140,50 @@ export default {
       desc: '饿了么团队基于 Vue 2.0 的桌面端组件库',
       url: 'https://element.eleme.cn/#/zh-CN',
     },
+    {
+      name: 'Material-UI',
+      icon: 'materialui.ico',
+      desc: 'Material Design风格的React UI 框架',
+      url: 'https://next--material-ui-docs.netlify.app/zh/',
+    },
+    {
+      name: 'Semantic UI',
+      icon: 'semanticui.png',
+      desc: '一个为主题设计的 UI 框架',
+      url: 'https://semantic-ui.com/',
+    },
+    {
+      name: 'Angular Material',
+      icon: 'angularMaterial.png',
+      desc: 'Material Design风格的Angular UI框架',
+      url: 'https://material.angular.io/',
+    },
+    {
+      name: 'Fluent UI',
+      icon: 'microsoft.png',
+      desc: '微软推出的Fluent Design风格的UI框架',
+      url: 'https://developer.microsoft.com/en-us/fluentui#/',
+    },
+    {
+      name: 'Fusion',
+      icon: 'fusion.png',
+      desc: '阿里的另一套UI框架',
+      url: 'https://fusion.design/',
+    },
+    {
+      name: 'chatui',
+      icon: 'chatui.svg',
+      desc: '聊天对话领域的UI框架',
+      url: 'https://chatui.io/',
+    },
+    {
+      name: '',
+      icon: '',
+      desc: '',
+      url: '',
+    },
   ],
-  移动端框架: [
+  移动端UI框架: [
     {
       name: 'Ant Design Mobile',
       icon: 'antDesginMobile.png',
@@ -39,6 +195,20 @@ export default {
       icon: 'vant.png',
       desc: '有赞前端团队开源的移动端组件库',
       url: 'https://vant-contrib.gitee.io/vant/v3/#/zh-CN',
+    },
+  ],
+  微信: [
+    {
+      name: '小程序',
+      icon: 'weixin.ico',
+      desc: '小程序开发文档',
+      url: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
+    },
+    {
+      name: '公众号',
+      icon: 'weixin.ico',
+      desc: '公众号开发文档',
+      url: 'https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html',
     },
   ],
   多端开发解决方案: [
@@ -55,12 +225,88 @@ export default {
       url: 'https://uniapp.dcloud.io/',
     },
   ],
+  Native开发: [
+    {
+      name: 'React Native',
+      icon: 'react.ico',
+      desc: 'React移动端跨平台',
+      url: 'https://reactnative.cn/docs/getting-started',
+    },
+    {
+      name: 'Flutter',
+      icon: 'flutter.png',
+      desc: 'Google开源的移动端跨平台',
+      url: 'https://flutter.dev/',
+    },
+    {
+      name: 'Ionic',
+      icon: 'ionic.png',
+      desc: '移动应用程序开发框架偏Angular',
+      url: 'https://ionicframework.com/',
+    },
+  ],
+  服务端渲染: [
+    {
+      name: 'Nuxt',
+      icon: 'nuxt.png',
+      desc: 'Vue的服务端渲染应用框架',
+      url: 'https://nuxtjs.org/',
+    },
+    {
+      name: 'Next',
+      icon: 'next.png',
+      desc: 'React的服务端渲染应用框架',
+      url: 'https://www.nextjs.cn/',
+    },
+    {
+      name: 'Scully',
+      icon: 'scully.ico',
+      desc: 'Angular的服务端渲染应用框架',
+      url: 'https://scully.io/',
+    },
+  ],
   可视化: [
     {
       name: 'AntV',
       icon: 'antv.png',
-      desc: '包含G2/F2/G6等可视化方案的集成',
-      url: 'https://pro.ant.design',
+      desc: '蚂蚁数据可视化，包含G2/F2/G6等',
+      url: 'https://antv.vision/zh',
+    },
+    {
+      name: 'Echarts',
+      icon: 'echarts.png',
+      desc: '百度开源的可视化图表库',
+      url: 'https://echarts.apache.org/zh/index.html',
+    },
+    {
+      name: 'Highcharts',
+      icon: 'highcharts.ico',
+      desc: '基于 SVG 的现代多平台图表库',
+      url: 'https://www.highcharts.com/',
+    },
+    {
+      name: 'D3.js',
+      icon: 'd3js.png',
+      desc: '使用动态图形进行数据可视化的JavaScript程序库',
+      url: 'https://d3js.org/',
+    },
+    {
+      name: 'Three.js',
+      icon: 'threejs.ico',
+      desc: '应用与基于webGL的3D场景',
+      url: 'https://threejs.org/',
+    },
+    {
+      name: 'BizCharts',
+      icon: 'bizcharts.png',
+      desc: '基于G2与G2Plot封装的React阿里图表库',
+      url: '',
+    },
+    {
+      name: 'iMove',
+      icon: 'github.png',
+      desc: '逻辑可复用的，面向函数的，流程可视化的 JavaScript 工具库',
+      url: 'https://github.com/ykfe/imove',
     },
   ],
 };

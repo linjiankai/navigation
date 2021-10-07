@@ -1,27 +1,11 @@
 # navigation
 
-## Getting Started
+#### 待完成的需求
 
-Install dependencies,
-
-```bash
-$ npm i
-```
-
-Start the dev server,
-
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
-```
+1. 中英文官网，博客掘金切换方式
+2. 本站搜索
+3. chrome 插件
+   - 搜索功能
+   - 常用网站设置，展示
+   - 网站修改，添加，删除，存本地
+4. 推荐学习，已过期等右上角图标展示
